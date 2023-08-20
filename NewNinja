@@ -1,3 +1,4 @@
+if game.PlaceId == 13999740606 then
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({
     Name = "Tung Hub | Ninja Fighting Simulator",
@@ -138,7 +139,7 @@ TabTwo:AddDropdown({
 
         
 local Section = TabThree:AddSection({
-    Name = "Teleport)"
+    Name = "Teleport"
 })
 
    
